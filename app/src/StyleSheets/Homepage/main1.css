@@ -1,0 +1,115 @@
+body,html{
+    margin:0;
+    max-width:100vw;
+    }
+
+.main1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position:relative;
+  overflow:hidden;
+}
+
+.main1back{
+background:url("./../../Assets/Images/Homepage/main1back.jpg")no-repeat;
+background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index:-1;
+}
+.main1fore{
+background:url("./../../Assets/Images/Homepage/main1fore1.png")no-repeat;
+background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  z-index:2;
+  animation-name: hill;
+  animation-duration: 2.5s;
+  position:absolute;
+}
+
+@keyframes hill {
+ 0% {height:400vh;margin-top:-50%;margin-left:-45%;width: 180%;}
+ 20% {height:400vh;margin-top:-50%;margin-left:-45%;width: 180%;}
+ 100% {height:100vh;margin-top:0%;margin-left:0%;width: 100%;}
+}
+.main1text1{
+  width: 100%;
+  height: 10vh;
+  z-index:1;
+  animation-name: main1text1;
+  animation-duration: 2.5s;
+  position:absolute;
+  margin-top:8%;
+  font-family:oswald;
+font-size:80px;
+color:White;
+text-align:center;
+letter-spacing: 0.10em;
+text-shadow: 3px 3px #124191;
+}
+
+@keyframes main1text1 {
+ 0% {margin-top:30%;opacity:0;}
+ 20% {margin-top:30%;opacity:0;}
+ 21% {margin-top:30%;opacity:1;}
+ 100% {margin-top:8%;opacity:1;}
+}
+.main1text2{
+  width: 100%;
+  height: 10vh;
+  z-index:1;
+  animation-name: main1text2;
+  animation-duration: 2.5s;
+  position:absolute;
+  margin-top:15%;
+  font-family:poppins;
+font-size:40px;
+color:White;
+text-align:center;
+letter-spacing: 0.10em;
+}
+
+@keyframes main1text2 {
+ 0% {margin-top:55%;opacity:0;}
+ 20% {margin-top:55%;opacity:0;}
+ 21% {margin-top:55%;opacity:1;}
+ 100% {margin-top:15%;opacity:1;}
+}
+
+.main1butcont{
+  width: 100%;
+  position:relative;
+}
+
+.main1but{
+  z-index:1;
+  animation-name: main1butk;
+  animation-duration: 2.5s;
+  position:absolute;
+  margin-top:20%;
+  margin-left:45%;
+  font-family:poppins;
+font-size:22px;
+color:White;
+text-align:center;
+letter-spacing: 0.10em;
+border:1px solid white;
+padding:6px 20px;
+border-radius:25px;
+}
+.main1but:hover{
+cursor:pointer;
+}
+
+@keyframes main1butk {
+ 0% {margin-top:80%;opacity:0;}
+ 20% {margin-top:80%;opacity:0;}
+ 21% {margin-top:80%;opacity:1;}
+ 100% {margin-top:20%;opacity:1;}
+}
+
