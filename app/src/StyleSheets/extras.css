@@ -1,3 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.grad1 {
+  height:3800px;
+background: #88a0c8;  /* fallback for old browsers */
+background-image: linear-gradient( #030d1d 0%, #0c2d65 20%, #124191 45%, #88a0c8 65%, #fff 85%);
+}
+.dummy1,.dummy2,.dummy3,.dummy4,.dummy5,.dummy6{
+opacity:0;}

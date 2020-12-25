@@ -1,0 +1,9 @@
+.footer{
+width:100%;
+position:relative;
+}
+
+.foot {
+  height:500px;
+background-image: linear-gradient( #663d00 , #ffb74c );
+}

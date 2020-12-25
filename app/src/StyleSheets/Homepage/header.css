@@ -79,7 +79,7 @@ border:1px solid white;
 background:rgba(255,234,204,0.1);
 }
 
-.logo{
+.header .logo{
 background:url("./../../Assets/Images/Logo/logowhite.png")no-repeat;
 background-size: 100%;
  width: 11%;
@@ -88,3 +88,4 @@ background-size: 100%;
 float:left;
 margin-left:10%;
 }
+

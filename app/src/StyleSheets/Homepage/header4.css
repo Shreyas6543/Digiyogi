@@ -1,0 +1,39 @@
+.header4 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  z-index:999;
+}
+.header4 .item3{
+ margin-right:150px;
+ }
+.header4 .item1, .header4 .item2, .header4 .item3{
+background:#b7c6de;
+color:#ff9900;
+border:1px solid #ff9900;
+transition: color 0.5s, border 0.5s;
+}
+.header4 .item1:hover, .header4 .item2:hover, .header4 .item3:hover{
+cursor:pointer;
+color:#b26b00;
+border:1px solid #b26b00;
+background:rgba(3,13,29,0.1);
+
+}
+
+.header4 .logo{
+background:url("./../../Assets/Images/Logo/logoorange.png")no-repeat;
+background-size: 100%;
+ width: 11%;
+ height:55%;
+ position:absolute;
+float:left;
+margin-left:10%;
+
+
+}
